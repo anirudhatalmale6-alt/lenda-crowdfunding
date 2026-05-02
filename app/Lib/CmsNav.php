@@ -12,7 +12,7 @@
  * @license    http://www.agriya.com/ Agriya Infoway Licence
  * @link       http://www.agriya.com
  */
-class CmsNav extends Object
+class CmsNav extends CakeObject
 {
     protected static $_items = array();
     protected static $_defaults = array(

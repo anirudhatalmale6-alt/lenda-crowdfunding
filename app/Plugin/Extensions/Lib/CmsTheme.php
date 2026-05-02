@@ -12,7 +12,7 @@
  * @license    http://www.agriya.com/ Agriya Infoway Licence
  * @link       http://www.agriya.com
  */
-class CmsTheme extends Object
+class CmsTheme extends CakeObject
 {
     /**
      * Constructor

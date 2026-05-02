@@ -14,7 +14,7 @@
  */
 App::uses('ClassRegistry', 'Utility');
 App::uses('Folder', 'Utility');
-class CmsPlugin extends Object
+class CmsPlugin extends CakeObject
 {
     /**
      * PluginActivation class

@@ -12,7 +12,7 @@
  * @license    http://www.agriya.com/ Agriya Infoway Licence
  * @link       http://www.agriya.com
  */
-class ProjectRewardEventHandler extends Object implements CakeEventListener
+class ProjectRewardEventHandler extends CakeObject implements CakeEventListener
 {
     /**
      * implementedEvents

@@ -22,7 +22,7 @@
  *
  * @package       Cake.Model.Datasource
  */
-class DataSource extends Object {
+class DataSource extends CakeObject {
 
 /**
  * Are we connected to the DataSource?

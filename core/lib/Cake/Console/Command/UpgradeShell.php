@@ -515,7 +515,7 @@ class UpgradeShell extends AppShell {
 		}
 		$patterns = array(
 			array(
-				'*Component extends Object to *Component extends Component',
+				'*Component extends CakeObject to *Component extends Component',
 				'/([a-zA-Z]*Component extends) Object/',
 				'\1 Component'
 			),

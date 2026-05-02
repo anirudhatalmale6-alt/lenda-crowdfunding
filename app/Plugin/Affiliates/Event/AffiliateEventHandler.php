@@ -1,5 +1,5 @@
 <?php
-class AffiliateEventHandler extends Object implements CakeEventListener
+class AffiliateEventHandler extends CakeObject implements CakeEventListener
 {
     /**
      * implementedEvents

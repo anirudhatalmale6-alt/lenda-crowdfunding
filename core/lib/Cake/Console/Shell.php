@@ -28,7 +28,7 @@ App::uses('File', 'Utility');
  *
  * @package       Cake.Console
  */
-class Shell extends Object {
+class Shell extends CakeObject {
 
 /**
  * Output constants for making verbose and quiet shells.

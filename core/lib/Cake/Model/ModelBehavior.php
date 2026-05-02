@@ -62,7 +62,7 @@
  * @see Model::$actsAs
  * @see BehaviorCollection::load()
  */
-class ModelBehavior extends Object {
+class ModelBehavior extends CakeObject {
 
 /**
  * Contains configuration settings for use with individual model objects.  This

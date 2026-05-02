@@ -1,5 +1,5 @@
 <?php
-class WithdrawalEventHandler extends Object implements CakeEventListener
+class WithdrawalEventHandler extends CakeObject implements CakeEventListener
 {
     /**
      * implementedEvents

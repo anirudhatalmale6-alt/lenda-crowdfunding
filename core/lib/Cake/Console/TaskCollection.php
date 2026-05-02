@@ -23,7 +23,7 @@ App::uses('ObjectCollection', 'Utility');
  *
  * @package       Cake.Console
  */
-class TaskCollection extends ObjectCollection {
+class TaskCollection extends CakeObjectCollection {
 
 /**
  * Shell to use to set params to tasks.

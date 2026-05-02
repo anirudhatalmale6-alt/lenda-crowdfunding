@@ -23,7 +23,7 @@
  *
  * @package Cake.Controller.Component.Acl
  */
-class PhpAcl extends Object implements AclInterface {
+class PhpAcl extends CakeObject implements AclInterface {
 
 	const DENY = false;
 	const ALLOW = true;

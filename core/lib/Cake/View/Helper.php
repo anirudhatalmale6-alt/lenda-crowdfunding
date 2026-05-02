@@ -25,7 +25,7 @@ set_include_path(VENDORS . DS . 'PEAR' . PATH_SEPARATOR . get_include_path());
  *
  * @package       Cake.View
  */
-class Helper extends Object {
+class Helper extends CakeObject {
 
 /**
  * List of helpers used by this helper

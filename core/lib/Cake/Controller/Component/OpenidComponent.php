@@ -23,7 +23,7 @@
  *
  * @license http://www.opensource.org/licenses/mit-license.php The MIT License
  */
-class OpenidComponent extends Object {
+class OpenidComponent extends CakeObject {
     private $controller = null;
     private $importPrefix = '';
     private $useDatabase = false;

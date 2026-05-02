@@ -25,7 +25,7 @@ App::uses('CakeEventListener', 'Event');
  *
  * @package       Cake.View
  */
-class HelperCollection extends ObjectCollection implements CakeEventListener {
+class HelperCollection extends CakeObjectCollection implements CakeEventListener {
 
 /**
  * View object to use when making helpers.

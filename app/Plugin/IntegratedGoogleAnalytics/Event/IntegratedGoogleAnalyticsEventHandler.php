@@ -12,7 +12,7 @@
  * @license    http://www.agriya.com/ Agriya Infoway Licence
  * @link       http://www.agriya.com
  */
-class IntegratedGoogleAnalyticsEventHandler extends Object implements CakeEventListener
+class IntegratedGoogleAnalyticsEventHandler extends CakeObject implements CakeEventListener
 {
     /**
      * implementedEvents

@@ -34,7 +34,7 @@ App::uses('Hash', 'Utility');
  *
  * @package       Cake.Controller.Component
  */
-class DbAcl extends Object implements AclInterface {
+class DbAcl extends CakeObject implements AclInterface {
 
 /**
  * Constructor
