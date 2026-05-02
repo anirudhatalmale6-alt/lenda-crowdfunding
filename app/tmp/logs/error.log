@@ -1,0 +1,728 @@
+2026-04-30 16:42:47 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:42:47 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:44:36 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:44:37 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:44:37 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:44:37 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:44:37 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:44:37 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:44:38 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:44:38 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:47:32 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:47:32 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:47:32 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:47:32 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:47:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:47:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:47:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:47:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:47:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:47:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:47:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:47:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:47:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:47:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:47:34 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:47:34 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:48:16 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:48:16 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:48:16 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:48:16 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:48:16 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:48:16 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:48:17 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:48:17 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:17 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:17 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:18 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:18 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:19 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:19 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:19 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:19 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:20 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:20 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:20 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:20 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:20 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:20 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:21 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:21 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:32 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:32 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:32 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:32 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:50:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:50:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:51:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:51:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:51:32 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:51:32 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:51:35 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:51:35 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:51:36 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:51:36 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:51:37 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:51:37 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:51:38 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:51:38 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:51:39 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:51:39 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:51:47 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:51:47 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:05 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:05 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:05 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:05 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:05 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:05 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:06 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:06 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:07 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:07 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:09 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:09 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:10 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:10 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:11 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:11 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:11 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:11 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:12 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:12 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:12 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:12 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:12 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:12 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:12 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:12 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:12 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:12 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:13 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:13 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:13 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:13 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:13 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:13 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:13 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:13 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 16:52:13 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 16:52:13 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:33:55 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:33:55 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:33:55 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:33:55 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:33:56 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:33:56 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:33:57 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:33:57 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:34:14 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:34:14 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:34:15 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:34:15 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:34:16 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:34:16 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:34:17 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:34:17 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:34:17 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:34:17 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:34:18 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:34:18 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:34:18 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:34:18 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 18:34:19 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 18:34:19 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:19:27 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:19:27 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:19:27 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:19:27 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:19:27 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:19:27 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:19:27 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:19:27 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:19:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:19:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:19:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:19:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:19:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:19:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:19:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:19:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:28:36 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:28:36 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:28:36 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:28:36 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:28:36 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:28:36 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:28:36 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:28:36 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:38:25 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:38:25 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:38:25 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:38:25 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:38:25 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:38:25 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 19:38:25 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 19:38:25 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 21:53:36 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 21:53:36 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 21:53:37 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 21:53:37 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 21:53:37 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 21:53:37 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 21:53:38 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 21:53:38 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 22:54:36 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 22:54:36 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 22:54:37 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 22:54:37 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 22:54:38 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 22:54:38 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 22:54:38 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 22:54:38 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 22:55:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 22:55:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 22:55:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 22:55:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 22:55:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 22:55:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-04-30 22:55:28 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-04-30 22:55:28 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-05-01 04:20:54 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-05-01 04:20:54 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-05-01 04:20:57 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-05-01 04:20:57 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-05-01 04:20:58 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-05-01 04:20:58 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-05-01 04:21:01 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-05-01 04:21:01 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-05-01 11:55:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-05-01 11:55:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-05-01 11:55:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-05-01 11:55:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-05-01 11:55:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-05-01 11:55:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2026-05-01 11:55:33 Error: Fatal Error (64): Cannot use 'Object' as class name as it is reserved in [C:\xampp\htdocs\lenda\core\lib\Cake\Core\Object.php, line 26]
+2026-05-01 11:55:33 Error: [InternalErrorException] Internal Server Error
+#0 C:\xampp\htdocs\lenda\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(926): ErrorHandler::handleError(64, 'Cannot use 'Obj...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\lenda\core\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}

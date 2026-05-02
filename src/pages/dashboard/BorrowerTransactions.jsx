@@ -1,0 +1,113 @@
+import { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { Download, Filter } from 'lucide-react';
+import { getMyLoans } from '../../store/slices/loanSlice';
+import { getTransactionHistory } from '../../store/slices/walletSlice';
+import MilestoneTimeline from '../../components/dashboard/MilestoneTimeline';
+import {
+    buildBorrowerRepaymentMilestones,
+    buildBorrowerTransactionTimeline,
+    downloadMilestonesCsv,
+    normalizeLoan,
+} from '../../utils/dashboardTransactions';
+
+function BorrowerTransactions() {
+    const dispatch = useDispatch();
+    const { myLoans, isLoading: loansLoading } = useSelector((state) => state.loans);
+    const { transactionHistory, isLoading: walletLoading } = useSelector((state) => state.wallet);
+    const [filter, setFilter] = useState('all');
+
+    useEffect(() => {
+        dispatch(getMyLoans());
+        dispatch(getTransactionHistory());
+    }, [dispatch]);
+
+    const loans = (myLoans || []).map(normalizeLoan);
+    const repaymentMilestones = buildBorrowerRepaymentMilestones(loans);
+    const transactionTimeline = buildBorrowerTransactionTimeline(loans, transactionHistory);
+
+    const applyFilter = (items) => {
+        if (filter === 'all') return items;
+        if (filter === 'pending') return items.filter((item) => item.status === 'pending' || item.status === 'overdue');
+        if (filter === 'completed') return items.filter((item) => item.status === 'completed');
+        if (filter === 'inflow') return items.filter((item) => item.direction === 'inflow');
+        if (filter === 'outflow') return items.filter((item) => item.direction === 'outflow');
+        return items;
+    };
+
+    const filteredSchedule = applyFilter(repaymentMilestones);
+    const filteredTransactions = applyFilter(transactionTimeline);
+    const isLoading = loansLoading || walletLoading;
+
+    return (
+        <div className="space-y-6">
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+                <div>
+                    <h1 className="text-2xl font-bold text-slate-900">Borrower Transactions</h1>
+                    <p className="mt-1 text-slate-600">
+                        Review your repayment schedule, pending settlements, and every loan cashflow event.
+                    </p>
+                </div>
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+                    <div className="relative">
+                        <Filter className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                        <select className="input-field min-w-[180px] pl-10" value={filter} onChange={(event) => setFilter(event.target.value)}>
+                            <option value="all">All activity</option>
+                            <option value="pending">Pending only</option>
+                            <option value="completed">Completed only</option>
+                            <option value="inflow">Credits only</option>
+                            <option value="outflow">Debits only</option>
+                        </select>
+                    </div>
+                    <button
+                        className="btn-secondary flex items-center gap-2"
+                        onClick={() => downloadMilestonesCsv([...filteredSchedule, ...filteredTransactions], 'borrower-transactions.csv')}
+                    >
+                        <Download className="h-4 w-4" />
+                        Export CSV
+                    </button>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="card p-5">
+                    <div className="text-sm text-slate-500">Loans tracked</div>
+                    <div className="mt-2 text-3xl font-bold text-slate-900">{loans.length}</div>
+                </div>
+                <div className="card p-5">
+                    <div className="text-sm text-slate-500">Pending repayments</div>
+                    <div className="mt-2 text-3xl font-bold text-slate-900">
+                        {repaymentMilestones.filter((item) => item.status === 'pending' || item.status === 'overdue').length}
+                    </div>
+                </div>
+                <div className="card p-5">
+                    <div className="text-sm text-slate-500">Completed events</div>
+                    <div className="mt-2 text-3xl font-bold text-slate-900">
+                        {transactionTimeline.filter((item) => item.status === 'completed').length}
+                    </div>
+                </div>
+            </div>
+
+            {isLoading ? (
+                <div className="card p-6 text-center text-slate-500">Loading borrower activity...</div>
+            ) : (
+                <div className="space-y-6">
+                    <MilestoneTimeline
+                        title="Repayment Schedule"
+                        subtitle="Full installment schedule for every active and completed borrowing facility."
+                        items={filteredSchedule}
+                        emptyMessage="No repayment milestones match the current filter."
+                    />
+                    <MilestoneTimeline
+                        title="Transaction History"
+                        subtitle="Credits, repayments, and settlement activity from your borrower account."
+                        items={filteredTransactions}
+                        emptyMessage="No borrower transactions match the current filter."
+                    />
+                </div>
+            )}
+        </div>
+    );
+}
+
+export default BorrowerTransactions;

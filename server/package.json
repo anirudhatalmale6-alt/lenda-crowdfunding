@@ -1,0 +1,27 @@
+{
+  "name": "lenda-socket-server",
+  "version": "1.0.0",
+  "description": "Lenda real-time WebSocket server and smart contract event listener",
+  "main": "socket-server.js",
+  "scripts": {
+    "start": "node socket-server.js",
+    "dev": "nodemon socket-server.js",
+    "events": "node contract-event-listener.js",
+    "events:dev": "nodemon contract-event-listener.js",
+    "both": "concurrently \"npm run dev\" \"npm run events:dev\""
+  },
+  "dependencies": {
+    "socket.io": "^4.7.2",
+    "socket.io-redis": "^6.1.1",
+    "ethers": "^6.10.0",
+    "redis": "^4.6.12",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

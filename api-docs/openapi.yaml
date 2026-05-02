@@ -1,0 +1,956 @@
+openapi: 3.0.3
+info:
+  title: Lenda Protocol API
+  description: |
+    RESTful API for Lenda P2P Lending Platform
+    
+    ## Authentication
+    Most endpoints require JWT authentication. Include the token in the header:
+    `Authorization: Bearer <token>`
+    
+    ## Error Responses
+    All errors follow a standard format:
+    ```json
+    {
+      "success": false,
+      "error": {
+        "message": "Error description",
+        "code": "ERROR_CODE",
+        "status": 400,
+        "request_id": "req_xxxxx"
+      }
+    }
+    ```
+  version: 1.0.0
+  contact:
+    name: Lenda API Support
+    email: api@lenda.protocol
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: https://api.lenda.protocol/v1
+    description: Production server
+  - url: https://staging-api.lenda.protocol/v1
+    description: Staging server
+  - url: http://localhost:8080/v1
+    description: Local development server
+
+tags:
+  - name: Authentication
+    description: User authentication and authorization
+  - name: Users
+    description: User management operations
+  - name: Loans
+    description: Loan lifecycle operations
+  - name: Collateral
+    description: Collateral management
+  - name: Wallet
+    description: Wallet and blockchain operations
+  - name: Payments
+    description: Payment and repayment operations
+
+paths:
+  # ==================== AUTHENTICATION ====================
+  /auth/register:
+    post:
+      tags:
+        - Authentication
+      summary: Register a new user
+      operationId: registerUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - username
+                - password
+              properties:
+                email:
+                  type: string
+                  format: email
+                  description: User's email address
+                username:
+                  type: string
+                  pattern: '^[a-zA-Z0-9_]{3,30}$'
+                  description: Unique username
+                password:
+                  type: string
+                  minLength: 6
+                  description: User password
+                firstName:
+                  type: string
+                lastName:
+                  type: string
+                referredBy:
+                  type: string
+                  description: Referral code
+      responses:
+        '201':
+          description: User successfully registered
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: object
+                    properties:
+                      userId:
+                        type: integer
+                      needsEmailVerification:
+                        type: boolean
+                      needsAdminApproval:
+                        type: boolean
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '409':
+          $ref: '#/components/responses/Conflict'
+
+  /auth/login:
+    post:
+      tags:
+        - Authentication
+      summary: Authenticate user
+      operationId: loginUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - loginIdentifier
+                - password
+              properties:
+                loginIdentifier:
+                  type: string
+                  description: Email or username
+                password:
+                  type: string
+                  format: password
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: object
+                    properties:
+                      token:
+                        type: string
+                      user:
+                        $ref: '#/components/schemas/User'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /auth/logout:
+    post:
+      tags:
+        - Authentication
+      summary: Logout user
+      operationId: logoutUser
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Logout successful
+
+  /auth/forgot-password:
+    post:
+      tags:
+        - Authentication
+      summary: Request password reset
+      operationId: forgotPassword
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+              properties:
+                email:
+                  type: string
+                  format: email
+      responses:
+        '200':
+          description: Password reset email sent
+
+  /auth/reset-password:
+    post:
+      tags:
+        - Authentication
+      summary: Reset password
+      operationId: resetPassword
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - userId
+                - token
+                - newPassword
+              properties:
+                userId:
+                  type: integer
+                token:
+                  type: string
+                newPassword:
+                  type: string
+                  minLength: 6
+      responses:
+        '200':
+          description: Password reset successful
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /auth/activate:
+    post:
+      tags:
+        - Authentication
+      summary: Activate user account
+      operationId: activateAccount
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - userId
+                - hash
+              properties:
+                userId:
+                  type: integer
+                hash:
+                  type: string
+      responses:
+        '200':
+          description: Account activated successfully
+
+  # ==================== USERS ====================
+  /users:
+    get:
+      tags:
+        - Users
+      summary: Get all users (admin)
+      operationId: getUsers
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+        - name: role_id
+          in: query
+          schema:
+            type: integer
+        - name: is_active
+          in: query
+          schema:
+            type: boolean
+        - name: filter
+          in: query
+          schema:
+            type: string
+            enum: [active, inactive, admin, facebook, twitter, google]
+      responses:
+        '200':
+          description: Users list
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/User'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+
+  /users/{id}:
+    get:
+      tags:
+        - Users
+      summary: Get user by ID
+      operationId: getUserById
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: User data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    put:
+      tags:
+        - Users
+      summary: Update user
+      operationId: updateUser
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserUpdate'
+      responses:
+        '200':
+          description: User updated
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+    delete:
+      tags:
+        - Users
+      summary: Delete user (admin)
+      operationId: deleteUser
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: User deleted
+
+  /users/me:
+    get:
+      tags:
+        - Users
+      summary: Get current user profile
+      operationId: getCurrentUser
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Current user profile
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+
+    put:
+      tags:
+        - Users
+      summary: Update current user profile
+      operationId: updateCurrentUser
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserProfileUpdate'
+      responses:
+        '200':
+          description: Profile updated
+
+  # ==================== LOANS ====================
+  /loans:
+    get:
+      tags:
+        - Loans
+      summary: Get all loans
+      operationId: getLoans
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [requested, funded, active, repaid, defaulted]
+        - name: borrower_id
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Loans list
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Loan'
+
+    post:
+      tags:
+        - Loans
+      summary: Create new loan request
+      operationId: createLoan
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - loanAmount
+                - interestRate
+                - durationMonths
+                - collateralId
+              properties:
+                loanAmount:
+                  type: number
+                  minimum: 100
+                  maximum: 1000000
+                interestRate:
+                  type: integer
+                  description: Interest rate in basis points (1000 = 10%)
+                  minimum: 0
+                  maximum: 10000
+                durationMonths:
+                  type: integer
+                  minimum: 1
+                  maximum: 360
+                collateralId:
+                  type: integer
+                title:
+                  type: string
+                description:
+                  type: string
+      responses:
+        '201':
+          description: Loan created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: object
+                    properties:
+                      loanId:
+                        type: integer
+                      riskScore:
+                        type: number
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /loans/{id}:
+    get:
+      tags:
+        - Loans
+      summary: Get loan by ID
+      operationId: getLoanById
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Loan details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Loan'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /loans/{id}/fund:
+    post:
+      tags:
+        - Loans
+      summary: Fund a loan
+      operationId: fundLoan
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - amount
+              properties:
+                amount:
+                  type: number
+                  description: Funding amount in ETH
+      responses:
+        '200':
+          description: Loan funded
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: object
+                    properties:
+                      transactionHash:
+                        type: string
+
+  /loans/{id}/repay:
+    post:
+      tags:
+        - Loans
+      summary: Make loan repayment
+      operationId: repayLoan
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - amount
+              properties:
+                amount:
+                  type: number
+                  description: Repayment amount in ETH
+      responses:
+        '200':
+          description: Repayment successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+
+  /loans/{id}/topup:
+    post:
+      tags:
+        - Loans
+      summary: Request loan topup
+      operationId: requestLoanTopup
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - additionalAmount
+                - additionalMonths
+              properties:
+                additionalAmount:
+                  type: number
+                additionalMonths:
+                  type: integer
+      responses:
+        '201':
+          description: Topup requested
+
+  # ==================== COLLATERAL ====================
+  /collateral:
+    get:
+      tags:
+        - Collateral
+      summary: Get all collateral
+      operationId: getCollateralList
+      security:
+        - bearerAuth: []
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - name: owner_id
+          in: query
+          schema:
+            type: integer
+        - name: is_verified
+          in: query
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Collateral list
+
+    post:
+      tags:
+        - Collateral
+      summary: Deposit collateral
+      operationId: depositCollateral
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - collateralType
+                - estimatedValue
+                - documentHash
+              properties:
+                collateralType:
+                  type: string
+                  enum: [real_estate, vehicle, equipment, inventory, other]
+                estimatedValue:
+                  type: number
+                documentHash:
+                  type: string
+                  description: IPFS hash or document URL
+      responses:
+        '201':
+          description: Collateral deposited
+
+  /collateral/{id}:
+    get:
+      tags:
+        - Collateral
+      summary: Get collateral by ID
+      operationId: getCollateralById
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Collateral details
+
+  /collateral/{id}/verify:
+    post:
+      tags:
+        - Collateral
+      summary: Verify collateral (admin)
+      operationId: verifyCollateral
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Collateral verified
+
+  # ==================== WALLET ====================
+  /wallet/balance:
+    get:
+      tags:
+        - Wallet
+      summary: Get wallet balance
+      operationId: getWalletBalance
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Wallet balance
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: object
+                    properties:
+                      ethBalance:
+                        type: string
+                      tokenBalance:
+                        type: string
+
+  /wallet/connect:
+    post:
+      tags:
+        - Wallet
+      summary: Connect wallet
+      operationId: connectWallet
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - address
+              properties:
+                address:
+                  type: string
+                  description: Ethereum wallet address
+      responses:
+        '200':
+          description: Wallet connected
+
+  # ==================== STATS ====================
+  /stats:
+    get:
+      tags:
+        - Statistics
+      summary: Get platform statistics
+      operationId: getStats
+      responses:
+        '200':
+          description: Platform statistics
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: object
+                    properties:
+                      totalLoans:
+                        type: integer
+                      totalVolume:
+                        type: string
+                      activeLoans:
+                        type: integer
+                      defaultRate:
+                        type: number
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  parameters:
+    Page:
+      name: page
+      in: query
+      schema:
+        type: integer
+        default: 1
+    Limit:
+      name: limit
+      in: query
+      schema:
+        type: integer
+        default: 15
+        maximum: 100
+
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        email:
+          type: string
+          format: email
+        username:
+          type: string
+        roleId:
+          type: integer
+        isActive:
+          type: boolean
+        isEmailConfirmed:
+          type: boolean
+        createdAt:
+          type: string
+          format: date-time
+
+    UserUpdate:
+      type: object
+      properties:
+        email:
+          type: string
+          format: email
+        username:
+          type: string
+
+    UserProfileUpdate:
+      type: object
+      properties:
+        firstName:
+          type: string
+        lastName:
+          type: string
+        phone:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        country:
+          type: string
+
+    Loan:
+      type: object
+      properties:
+        id:
+          type: integer
+        borrower:
+          type: string
+        loanAmount:
+          type: string
+        interestRate:
+          type: integer
+        durationMonths:
+          type: integer
+        fundedAmount:
+          type: string
+        repaidAmount:
+          type: string
+        status:
+          type: string
+          enum: [requested, funded, active, repaid, defaulted, cancelled]
+        collateralId:
+          type: integer
+        createdAt:
+          type: string
+          format: date-time
+        dueDate:
+          type: string
+          format: date-time
+
+    Collateral:
+      type: object
+      properties:
+        id:
+          type: integer
+        owner:
+          type: string
+        loanId:
+          type: integer
+        collateralType:
+          type: string
+        estimatedValue:
+          type: string
+        documentHash:
+          type: string
+        isVerified:
+          type: boolean
+        isLocked:
+          type: boolean
+        isReleased:
+          type: boolean
+
+  responses:
+    BadRequest:
+      description: Bad request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+    Forbidden:
+      description: Forbidden
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+    NotFound:
+      description: Not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+    Conflict:
+      description: Conflict (duplicate)
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        error:
+          type: object
+          properties:
+            message:
+              type: string
+            code:
+              type: string
+            status:
+              type: integer
+            request_id:
+              type: string

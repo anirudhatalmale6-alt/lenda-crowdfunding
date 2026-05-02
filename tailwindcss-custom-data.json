@@ -1,0 +1,69 @@
+{
+    "version": 1.1,
+    "atDirectives": {
+        "tailwind": [
+            {
+                "name": "@tailwind",
+                "description": "Inject Tailwind's base styles, components, and utilities",
+                "references": [
+                    {
+                        "name": "Tailwind CSS Documentation",
+                        "url": "https://tailwindcss.com/docs"
+                    }
+                ]
+            },
+            {
+                "name": "@tailwind base",
+                "description": "Inject Tailwind's base styles (normalize, resets)"
+            },
+            {
+                "name": "@tailwind components",
+                "description": "Inject Tailwind's component classes"
+            },
+            {
+                "name": "@tailwind utilities",
+                "description": "Inject Tailwind's utility classes"
+            },
+            {
+                "name": "@apply",
+                "description": "Apply Tailwind utility classes to a custom CSS rule",
+                "references": [
+                    {
+                        "name": "Tailwind @apply Documentation",
+                        "url": "https://tailwindcss.com/docs/functions-and-directives#apply"
+                    }
+                ]
+            },
+            {
+                "name": "@layer",
+                "description": "Add custom styles to Tailwind's layer (base, components, utilities)",
+                "references": [
+                    {
+                        "name": "Tailwind @layer Documentation",
+                        "url": "https://tailwindcss.com/docs/functions-and-directives#layer"
+                    }
+                ]
+            },
+            {
+                "name": "@layer base",
+                "description": "Add custom base styles"
+            },
+            {
+                "name": "@layer components",
+                "description": "Add custom component styles"
+            },
+            {
+                "name": "@layer utilities",
+                "description": "Add custom utility styles"
+            },
+            {
+                "name": "@responsive",
+                "description": "Generate responsive variants of a custom class"
+            },
+            {
+                "name": "@variants",
+                "description": "Generate state variants for a custom class"
+            }
+        ]
+    }
+}
