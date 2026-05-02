@@ -26,7 +26,7 @@ App::uses('CakeEventListener', 'Event');
  *
  * @package       Cake.Controller
  */
-class ComponentCollection extends CakeObjectCollection implements CakeEventListener {
+class ComponentCollection extends ObjectCollection implements CakeEventListener {
 
 /**
  * The controller that this collection was initialized with.

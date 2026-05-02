@@ -29,7 +29,7 @@ App::uses('CakeEventListener', 'Event');
  *
  * @package       Cake.Model
  */
-class BehaviorCollection extends CakeObjectCollection implements CakeEventListener {
+class BehaviorCollection extends ObjectCollection implements CakeEventListener {
 
 /**
  * Stores a reference to the attached name

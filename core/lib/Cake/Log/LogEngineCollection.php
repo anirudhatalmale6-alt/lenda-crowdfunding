@@ -24,7 +24,7 @@ App::uses('ObjectCollection', 'Utility');
  *
  * @package       Cake.Log
  */
-class LogEngineCollection extends CakeObjectCollection {
+class LogEngineCollection extends ObjectCollection {
 
 /**
  * Loads/constructs a Log engine.
